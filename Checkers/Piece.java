@@ -18,6 +18,10 @@ public class Piece {
 	public void set(Color c){
 		color = c;
 	}
+	
+	public Color getColor(){
+		return color;
+	}
 }
 
 // Piece.Color.RED

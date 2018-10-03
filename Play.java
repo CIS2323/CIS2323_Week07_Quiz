@@ -17,5 +17,6 @@ public class Play {
 			// Check some stuff on the board
 			System.out.println("Location 2x2 is occupied: " + board.checkOccupied(2,2));
 			System.out.println("Location 7x7 is occupied: " + board.checkOccupied(7,7));
+			System.out.println("Color of the piece at 7x7 is: " + board.checkColor(7,7));
 	}
 }

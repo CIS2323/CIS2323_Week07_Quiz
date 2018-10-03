@@ -11,4 +11,8 @@ public class Board {
 	public boolean checkOccupied(int x, int y){
 		return (board[x][y] != null);
 	}
+	
+	public Piece.Color checkColor(int x, int y){
+		return board[x][y].getColor();
+	}
 }
