@@ -19,3 +19,7 @@ public class Piece {
 		color = c;
 	}
 }
+
+// Piece.Color.RED
+// Piece x = new Piece();
+// x.set();
