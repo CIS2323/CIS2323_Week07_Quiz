@@ -3,7 +3,7 @@ package Checkers;
 public class Piece {
 	
 	// Class Attributes
-	enum Color {RED,BLACK};
+	public static enum Color {RED,BLACK};
 	private static int numberOPieces = 0;
 	
 	// Instance Attributes
