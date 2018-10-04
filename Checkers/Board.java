@@ -12,7 +12,7 @@ public class Board {
 		return (board[x][y] != null);
 	}
 	
-	public Piece.Color checkColor(int x, int y){
+	public Color checkColor(int x, int y){
 		return board[x][y].getColor();
 	}
 }
